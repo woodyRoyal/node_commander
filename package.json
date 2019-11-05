@@ -1,0 +1,11 @@
+{
+  "name": "woody-todo-cli",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/woodyRoyal/woody-todo-cli.git",
+  "author": "wangp <wangp@2345.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^4.0.0"
+  }
+}
