@@ -7,5 +7,9 @@
   "license": "MIT",
   "dependencies": {
     "commander": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.5",
+    "eslint": "^6.6.0"
   }
 }
