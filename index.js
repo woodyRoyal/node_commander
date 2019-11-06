@@ -66,9 +66,11 @@ function askAction (list, index) {
       updateTitle,
       remove,
     }
-    if (answers2.action) {
-      actions[answers2.action](list, index)
-    }
+    actions[answers2.action] && actions[answers2.action](list, index)
+    // if (answers2.action) {
+    //   actions[answers2.action](list, index)
+    // }
+    // console.log(actions[answers2.action])
   })
 }
 
