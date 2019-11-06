@@ -6,7 +6,8 @@
   "author": "woodywp@qq.com",
   "license": "MIT",
   "dependencies": {
-    "commander": "^4.0.0"
+    "commander": "^4.0.0",
+    "inquirer": "^7.0.0"
   },
   "devDependencies": {
     "@types/node": "^12.12.5",
