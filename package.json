@@ -3,13 +3,16 @@
   "bin": {
     "woody": "cli.js"
   },
+  "scripts": {
+    "test": "jest"
+  },
   "files": [
     "cli.js",
     "db.js",
     "index.js",
     "*.js"
   ],
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "repository": "https://github.com/woodyRoyal/woody-todo-cli.git",
   "author": "woodywp@qq.com",
@@ -20,6 +23,7 @@
   },
   "devDependencies": {
     "@types/node": "^12.12.5",
-    "eslint": "^6.6.0"
+    "eslint": "^6.6.0",
+    "jest": "^24.9.0"
   }
 }
